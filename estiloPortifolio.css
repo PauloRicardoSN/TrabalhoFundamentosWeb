@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+
+}
+
+
+.container{
+    display: grid;
+    
+    
+}
+
+.topo{
+    grid-column-start: 1;
+    grid-column-end: 21;
+    justify-content: center;
+    background-image: url(fundoTopo.jpg);
+    height: 100px;
+   
+ 
+}
+
+header h1{
+    transform: translateY(25px);
+    text-shadow: 1px 1px 1px white;
+    
+    
+}
+
+header h1:hover{
+    font-size: 45px;
+    color: crimson;
+    text-shadow: 1px 1px 1px black;
+}
+.menu{
+    grid-column-start: 1;
+    grid-column-end: 21;
+    justify-content: center;
+    height: 80px;
+    background-color: black;
+   
+}
+
+.menu ul{
+    list-style-type: none;
+    transform: translateY(15px);
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    
+}
+
+
+.menu li a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 30px;
+    background-color: #6200ee;
+}
+
+a:link{color: black;}
+
+.menu li a:hover{
+    color: black;
+    font-size: 45px ;
+    text-shadow: 1px 1px 1px white;
+   
+}
+
+#form:hover{
+    background-image: url(menuForm.webp);
+    background-size: 100%;
+    background-position-y: -10px ;
+
+}
+#sobre:hover{
+    background-image: url(menuSobre.jpg);
+    background-size: 100%;
+    background-position-y: -100px ;
+}
+
+#port:hover{
+    background-image: url(menuPortifolio.webp);
+    background-size: 100%;
+    background-position-y: -10px ;
+}
+
+#cont:hover{
+    background-image: url(menuCont.jpeg);
+    background-size: 100%;
+    
+}
+
+
+.conteudo{
+    grid-column-start: 1;
+    grid-column-end: 21;
+   text-align: justify;
+}
