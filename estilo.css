@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.topo{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.menu{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.menu div{
+    box-sizing: border-box;
+    display: flex;
+   justify-content: center;
+    width: 20%;
+    height: 500px;
+    
+    
+  
+    
+    
+}
+
+.menu a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+.menu #link1{
+    padding: 0px 120px;
+    transition: .5s;
+    background-image: url(richter.jpeg);
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position-x:350px ;
+
+}
+
+#link2{
+    padding: 0px 120px;
+    transition: .5s;
+    background-repeat: no-repeat;
+    background-image: url(form.jpg);
+    background-size: 161%;
+    background-position-x: 350px;
+}
+
+#link3{
+    padding: 0px 121px;
+    transition: .5s;
+    background-repeat: no-repeat;
+    background-image: url(porti.jpg);
+    background-size: 242%;
+    background-position-x: 300px ;
+
+}
+
+#link4{
+    padding: 0px 127px;
+    transition: .5s;
+    background-repeat: no-repeat;
+    background-size: 213%;
+    background-image: url(contato.jpg);
+    background-position-x: 350px ;
+    
+
+}
+
+#link1:hover{
+    background-position-x:-350px ;
+    
+}
+
+#link2:hover{
+    background-position-x: -180px;
+}
+
+#link3:hover{
+    background-position-x: -190px
+}
+
+#link4:hover{
+    background-position-x: -125px;
+}
+
