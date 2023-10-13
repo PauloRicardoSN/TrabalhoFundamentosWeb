@@ -73,9 +73,10 @@ body{
     padding: 0px 127px;
     transition: .5s;
     background-repeat: no-repeat;
-    background-size: 213%;
-    background-image: url(contato.jpg);
+    background-size: 95%;
+    background-image: url(contato.jpeg);
     background-position-x: 350px ;
+    background-position-y: -28px;
     
 
 }
@@ -94,6 +95,6 @@ body{
 }
 
 #link4:hover{
-    background-position-x: -125px;
+    background-position-x: 0px;
 }
 
