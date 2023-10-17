@@ -12,6 +12,7 @@ body{
     background-color: black;
 }
 
+
 .menu{
     box-sizing: border-box;
     display: flex;
@@ -83,18 +84,26 @@ body{
 
 #link1:hover{
     background-position-x:-350px ;
+    color: aqua;
+    text-shadow: 1px 1px 1px black;
     
 }
 
 #link2:hover{
     background-position-x: -180px;
+    text-shadow: 1px 1px 1px black;
+    color: burlywood;
 }
 
 #link3:hover{
-    background-position-x: -190px
+    background-position-x: -190px;
+    text-shadow: 1px 1px 1px black;
+    color:chartreuse;
 }
 
 #link4:hover{
     background-position-x: 0px;
+    text-shadow: 1px 1px 1px black;
+    color:crimson;
 }
 

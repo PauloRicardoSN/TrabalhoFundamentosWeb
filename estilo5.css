@@ -7,6 +7,7 @@
     background-color: black;
   }
 
+
   .container{
     display: flex;
   }
@@ -33,6 +34,9 @@
     height: 100%;
     position: relative;
     left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .menu ul{
@@ -120,58 +124,26 @@ justify-content: center;
     color:crimson;
   }
 
-  .principal, .principal2{
+  .conteudo h1, p{
+    text-align: center;
+  }
+
+  .conteudo form{
     display: flex;
-    flex-wrap: wrap;
-  
-
-
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    border: 2px solid red;
+    border-radius: 1%;
+    padding: 5px;
+    height: 500px;
+    justify-content: space-around;
   }
 
-  .imagemEu{
-    height: 150px;
-    width: 20%;
-    background-image: url(euu.png);
-    background-size: 100%;
-    background-position-y: -7px;
+  .conteudo form:hover{
+    border: 2px solid greenyellow;
   }
 
-  .sobreMim{
-    width: 80%;
-    box-sizing: border-box;
-    border: 5px solid black;
-    
-
-  }
-
-  p{
-    text-indent: 10px;
-  }
-
-  .hobbies{
-    width: 80%;
-    box-sizing: border-box;
-    border: 5px solid black;
-
-  }
-
-  .imagem2{
-    width: 20%;
-    height: 150px;
-    background-image: url(dark.jpg);
-    background-size: 110%;
-  }
-
-  .imagem3{
-    width: 20%;
-    height: 150px;
-    background-color: aqua;
-
-  }
-  
-  .hobbies2{
-    box-sizing: border-box;
-    width: 80%;
-    border-top: 10px solid black;
-    border-left: 10px solid black;
+  .formu:focus{
+    border: 3px solid greenyellow
   }
