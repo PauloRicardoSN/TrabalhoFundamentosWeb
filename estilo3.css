@@ -120,3 +120,106 @@ justify-content: center;
     text-shadow: 1px 1px 1px black;
     color:crimson;
   }
+
+  p{
+    text-indent: 10px;
+  }
+
+  .principal{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  
+  }
+
+  .senai{
+    width: 15%;
+    height: 150px;
+    background-image: url(senai.png);
+    background-size: 100%;
+    background-position-y: -20px;
+
+  }
+
+  .cursos{
+    display: flex;
+    box-sizing: border-box;
+    width: 70%;
+    border: 5px solid black;
+    justify-content: center;
+  }
+
+  .uninter{
+    width: 15%;
+    height: 150px;
+    background-image: url(uninter.png);
+    background-size: 100%;
+    background-position-y: -25px;
+  }
+
+  .lista{
+    padding: 0;
+    font-size: 30px;
+    
+  }
+
+  .lista a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .lista a:hover{
+    color: red;
+  }
+
+  .principal2{
+    display: flex;
+  }
+
+  .lgpd{
+    width: 25%;
+    height: 250px;
+    background-image: url(lgpd.png);
+    background-size: 100%;
+    box-sizing: border-box;
+  }
+
+  .fun{
+    width: 25%;
+    height: 250px;
+    background-image: url(logistica.png);
+    background-size: 100%;
+    box-sizing: border-box;
+  }
+
+  .eco{
+    width: 25%;
+    height: 250px;
+    background-image: url(circular.png);
+    background-size: 100%;
+    box-sizing: border-box;
+  }
+
+  .edu{
+    width: 25%;
+    height: 250px;
+    background-image: url(ambiental.jpg);
+    background-size: 120%;
+    box-sizing: border-box;
+    background-position-x: -15px;
+  }
+
+
+
+
+.principal2 a{
+    display: block;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.mexer:hover{
+    border: solid 5px seagreen;
+}

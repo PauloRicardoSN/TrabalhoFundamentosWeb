@@ -120,7 +120,7 @@ justify-content: center;
     color:crimson;
   }
 
-  .principal, .principal2{
+  .principal, .principal2, .principal3{
     display: flex;
     flex-wrap: wrap;
   
@@ -165,7 +165,10 @@ justify-content: center;
   .imagem3{
     width: 20%;
     height: 150px;
-    background-color: aqua;
+    background-image: url(imagem3.jpg!d);
+    background-size: 150%;
+    background-position-x: -55px;
+    background-position-y: -20px;
 
   }
   
@@ -174,4 +177,25 @@ justify-content: center;
     width: 80%;
     border-top: 10px solid black;
     border-left: 10px solid black;
+  }
+
+  .imagem4{
+    width: 20%;
+    height: 150px;
+    background-image: url(pipoca.jpeg);
+    background-size: 100%;
+    background-position-y: -100px;
+  }
+
+  .gatos, .gatos2{
+    width: 80%;
+    border: 5px solid black;
+  }
+
+  .imagem5{
+    width: 20%;
+    height: 150px;
+    background-image: url(pantera.jpg);
+    background-size: 80%;
+    background-position-y: -30px ;
   }
