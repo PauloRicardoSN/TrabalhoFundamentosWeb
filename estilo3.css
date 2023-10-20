@@ -1,9 +1,9 @@
-*{
+*{   /* pagina sem margem e com o tamanho dela não sendo alterado por outra medida adicionada dentro do seu corpo*/
     box-sizing: border-box;
     margin: 0
   }
 
-  body{
+  body{ /*pagina com background padrão na cor preta*/
     background-color: black;
   }
 
@@ -13,10 +13,10 @@
   }
   
   .menu{
-    width: 15%;
-    height: 100vh;
+    width: 15%;  /*menu ocupando 15% da tela*/
+    height: 100vh;   /*menu ocupando toda a área de visualização de altura da tela*/
     background-color: red;
-    position: fixed;
+    position: fixed;   /*menu fixo mesmo com a rolagem do resto da pagina acontecendo*/
     background: black;
     color: white;
     align-items: center;
@@ -30,21 +30,21 @@
     border: solid black 5px;
     color: white;
     background-color: black;
-    width: 85%;
-    height: 100%;
+    width: 85%;  /*conteúdo ocupando os 85% restante da largura da tela*/
+    height: 100%;   /*conteúdo ocupando 100% da área da tela em relação a altura*/
     position: relative;
-    left: 15%;
+    left: 15%;   /*conteúdo movido 15% a direita em relação a tela para que não fique sobreposto pelo menu*/
   }
   
-  .menu ul{
+  .menu ul{ /*define o estilo da lista*/
     list-style-type: none;
     text-align: center;
     padding: 0;
     margin: 0;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    display: flex; /*display: flex para que eu possa manipular os itens como desejar*/
+    flex-direction: column; /*direção de conula para manter o aspecto de lista padrão*/
 justify-content: center;
 
 
@@ -63,7 +63,7 @@ justify-content: center;
 
   }
 
-  #link1{
+  #link1{ /*define o tempo de transição a imagem do link sobre mim*/
     background-image: url(richter.jpeg);
     transition: .5s;
     background-size: 150%;
@@ -71,13 +71,13 @@ justify-content: center;
     background-position-x: 310%;
   }
 
-  #link1:hover{
+  #link1:hover{ /*define o movimento da imagem de fundo ao passar o cursos sobre o link sobre mim*/
     background-position-x: 30% ;
     color: aqua;
     text-shadow: 1px 1px 1px black;
   }
 
-  #link2{
+  #link2{ /*define o tempo de transição a imagem do link formação*/
     background-image: url(form.jpg);
     background-repeat: no-repeat;
     background-size: 110%;
@@ -85,13 +85,13 @@ justify-content: center;
     transition: .4s;
   }
 
-  #link2:hover{
+  #link2:hover{ /*define o movimento da imagem de fundo ao passar o cursos sobre o link formação*/
     background-position-x: 0%;
     color: burlywood;
     text-shadow: 1px 1px 1px black;
   }
 
-  #link3{
+  #link3{/*define o tempo de transição a imagem de fundo do link portifolio*/
     background-repeat: no-repeat;
     background-size: 120%;
     background-image: url(porti.jpg);
@@ -100,13 +100,13 @@ justify-content: center;
   }
 
 
-  #link3:hover{
+  #link3:hover{ /*define o movimento da imagem de fundo ao passar o cursos sobre o link portifolio*/
     background-position-x: 80% ;
     text-shadow: 1px 1px 1px black;
     color:chartreuse;
   }
 
-  #link4{
+  #link4{ /*define o tempo de transição a imagem de fundo do link contato*/
     background-image: url(contato.jpeg);
     background-size: 120%;
     background-repeat: no-repeat;
@@ -115,7 +115,7 @@ justify-content: center;
     background-position-x: 700%;
   }
 
-  #link4:hover{
+  #link4:hover{ /*define o movimento da imagem de fundo ao passar o cursos sobre o link contato*/
     background-position-x: 100%;
     text-shadow: 1px 1px 1px black;
     color:crimson;
@@ -132,8 +132,8 @@ justify-content: center;
   
   }
 
-  .senai{
-    width: 15%;
+  .senai{ /*define o estilo do logo do senai*/
+    width: 15%; /*largura de 15% da área conteudo*/
     height: 150px;
     background-image: url(senai.png);
     background-size: 100%;
@@ -149,8 +149,8 @@ justify-content: center;
     justify-content: center;
   }
 
-  .uninter{
-    width: 15%;
+  .uninter{ /*define o estilo do logo da uninter*/
+    width: 15%; /*largura de 15% da área conteudo*/
     height: 150px;
     background-image: url(uninter.png);
     background-size: 100%;
@@ -212,7 +212,7 @@ justify-content: center;
 
 
 
-.principal2 a{
+.principal2 a{ /*define que o link cubra toda a área da imagem*/
     display: block;
     height: 100%;
     text-align: center;
@@ -220,6 +220,33 @@ justify-content: center;
     color: black;
 }
 
-.mexer:hover{
+.mexer:hover{ /*cria uma borda verde nas imagens das competencias ao passar o cursor por cima delas */
     border: solid 5px seagreen;
 }
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lista2 ul{
+    display: flex;
+    padding: 0;
+
+}
+
+.lista2 li{
+    padding:20px;
+    padding-right: 50px;
+}
+
+.imagensCompet{ /*define o tamanho das imagens usadas como link*/
+    width: 20%;
+}
+

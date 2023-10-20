@@ -1,8 +1,8 @@
-*{
+*{ /* pagina sem margem e com o tamanho dela não sendo alterado por outra medida adicionada dentro do seu corpo*/
     margin: 0;
     box-sizing: border-box;
 }
-body{
+body{  /*pagina com background padrão na cor preta*/
     background-color: black;
 }
 .topo{
@@ -20,16 +20,12 @@ body{
     background-color: black;
 }
 
-.menu div{
+.menu div{  /*menu centralizado no centro da tela com cada opção ocupando 20% do tamanho da tela*/
     box-sizing: border-box;
     display: flex;
    justify-content: center;
     width: 20%;
     height: 500px;
-    
-    
-  
-    
     
 }
 
@@ -41,7 +37,7 @@ body{
 
 }
 
-.menu #link1{
+.menu #link1{  /*define o tempo de transição a imagem do link sobre mim*/
     padding: 0px 120px;
     transition: .5s;
     background-image: url(richter.jpeg);
@@ -51,7 +47,7 @@ body{
 
 }
 
-#link2{
+#link2{  /*define o tempo de transição a imagem do link formação*/
     padding: 0px 120px;
     transition: .5s;
     background-repeat: no-repeat;
@@ -60,7 +56,7 @@ body{
     background-position-x: 350px;
 }
 
-#link3{
+#link3{  /*define o tempo de transição a imagem de fundo do link portifolio*/
     padding: 0px 121px;
     transition: .5s;
     background-repeat: no-repeat;
@@ -70,7 +66,7 @@ body{
 
 }
 
-#link4{
+#link4{  /*define o tempo de transição a imagem de fundo do link contato*/
     padding: 0px 127px;
     transition: .5s;
     background-repeat: no-repeat;
@@ -82,26 +78,26 @@ body{
 
 }
 
-#link1:hover{
+#link1:hover{ /*define o movimento da imagem de fundo ao passar o cursos sobre o link sobre mim*/
     background-position-x:-350px ;
     color: aqua;
     text-shadow: 1px 1px 1px black;
     
 }
 
-#link2:hover{
+#link2:hover{ /*define o movimento da imagem de fundo ao passar o cursos sobre o link formação*/
     background-position-x: -180px;
     text-shadow: 1px 1px 1px black;
     color: burlywood;
 }
 
-#link3:hover{
+#link3:hover{ /*define o movimento da imagem de fundo ao passar o cursos sobre o link portifolio*/
     background-position-x: -190px;
     text-shadow: 1px 1px 1px black;
     color:chartreuse;
 }
 
-#link4:hover{
+#link4:hover{ /*define o movimento da imagem de fundo ao passar o cursos sobre o link contato*/
     background-position-x: 0px;
     text-shadow: 1px 1px 1px black;
     color:crimson;
